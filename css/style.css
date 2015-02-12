@@ -63,6 +63,15 @@ header > .fixed {
   width: 60%;
 }
 
+.title {
+color: #FFFFFF;
+font-size: 4em;
+font-weight: 700;
+margin-top: 14%;
+margin-left: 28%;
+text-transform: uppercase;
+}
+
 #headerContent {
   position: absolute;
   z-index: 100;
@@ -272,6 +281,14 @@ footer p {
   #headerContent {
     padding-top: 0%;
   }
+  .title {
+	color: #FFFFFF;
+	font-size: 4em;
+	font-weight: 700;
+	margin-top: 7%;
+	margin-left: 6%;
+	text-transform: uppercase;
+  }
   #signupButtons {
     margin-left: 20%;
     text-align: center;
@@ -343,15 +360,6 @@ hr {
 .navbar-center {
 	float: left;
 	margin-left: 32.5%;
-}
-
-.title {
-color: #FFFFFF;
-font-size: 4em;
-font-weight: 700;
-margin-top: 14%;
-margin-left: 28%;
-text-transform: uppercase;
 }
 
 #bhhacksbg {
