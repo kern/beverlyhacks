@@ -61,15 +61,22 @@ header > .fixed {
 
 #logo {
   width: 60%;
+
+}
+
+@media screen and (max-width: 750px) {
+  #logo {
+    margin-top: 120px;
+  }
 }
 
 .title {
 color: #FFFFFF;
 font-size: 4em;
 font-weight: 700;
-margin-top: 6%;
-margin-left: 28%;
+margin-top: 14%;
 text-transform: uppercase;
+text-align: center;
 }
 
 #headerContent {
@@ -88,102 +95,24 @@ margin-left: 5%;
   color: #fff;
   text-transform: uppercase;
   font-size: 22px;
+  text-align: center;
 }
 
 #signupButtons {
   margin-top: 4%;
-  margin-left: 17%;
   -webkit-animation-delay: 0.2s;
   -o-animation-delay: 0.2s;
   animation-delay: 0.2s;
 }
 
 #signupButtons .frontpagebuttons {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   letter-spacing: 2px;
   text-transform: uppercase;
-  margin-right: 60px;
+  max-width: 400px;
   padding: 10px 30px;
-}
-
-.frontpagebuttons {
-	background-color: #FFFFFF;
-border: none;
-display: inline-block;
-text-align: center;
-text-decoration: none;
-cursor: pointer;
-margin-bottom: 20px;
-line-height: normal;
-color: #000000;
-padding: 10px 10px;
-font-size: 12px;
-cursor: pointer;
-text-transform: uppercase;
-letter-spacing: 2px;
-text-align: center;
--webkit-transition: 0.2s background linear;
--moz-transition: 0.2s background linear;
-transition: 0.2s background linear;
--webkit-border-radius: 3px;
--moz-border-radius: 3px;
-border-radius: 3px;
--webkit-box-sizing: border-box;
--moz-box-sizing: border-box;
-box-sizing: border-box;
--webkit-background-clip: padding;
--moz-background-clip: padding;
-background-clip: padding-box;
--webkit-appearance: none;
-border: 1px solid #FFFFFF;
-}
-
-.contacting:hover{
-     background: #000;
-	 color: #FFF;
-	 border-radius: 3px;
-	 text-decoration: none;
-}
-
-.contacting {
-	margin-top: 0px;
-	margin-bottom: 10px;
-	padding: 10px;
-	margin-left: 9%;
-}
-
-.maybesponsers {
-color: #FFFFFF;
-font-size: 18px;
-letter-spacing: 1px;
-text-transform: uppercase;
-text-rendering: optimizelegibility;
-font-weight: 400;
-}
-
-
-.registering {
-margin-top: 0px;
-margin-bottom: 10px;
-padding: 10px 0px;
-margin-left: 11%;
-}
-
-
-.registering:hover{
-     background: #000;
-	 color: #FFF;
-	 border-radius: 3px;
-	 text-decoration: none;
-}
-
-.mayberegister {
-color: #FFFFFF;
-font-size: 18px;
-letter-spacing: 1px;
-text-transform: uppercase;
-text-rendering: optimizelegibility;
-font-weight: 400;
-padding-bottom: 5px;
 }
 
 section {
@@ -195,6 +124,7 @@ section {
   font-size: 40px;
   position: relative;
   padding: 200px 0px;
+  padding-top: 0px;
   background: transparent;
 }
 
@@ -212,6 +142,8 @@ section {
 
 #abouttext{
   color: #FFFFFF;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 #abouttext h1 {
@@ -227,13 +159,14 @@ section {
 #faq {
   background-color: #ff8a18;
   padding-bottom: 100px;
+  text-align: center;
 }
 #faq p {
-  color: #FFCE8D;
+  color: black;
 }
 
 #faq h2, #faq h3 {
-  color: #fff;
+  color: black;
 }
 #faq h2 {
   border-color: #FF9936;
@@ -371,17 +304,11 @@ footer p {
 	text-transform: uppercase;
   }
   #signupButtons {
-    margin-left: 1%;
+    
     text-align: center;
   }
   #signupButtons .btn {
     margin: 10px 0 !important;
-  }
-  .registering {
-	margin-left: 20%;
-  }
-  .contacting {
-	margin-left: 20%;
   }
   #about h1 {
     font-size: 30px;
@@ -455,7 +382,7 @@ hr {
   left: 0;
   width: 100%;
   height: 100%;
-  margin-top: 3%;
+  margin-top: 8%;
   background-image: url(../img/Logo1.png);
   background-position: top;
   background-size: 15% auto;
@@ -493,4 +420,86 @@ max-width: 5px;
 text-align: left;
 font-family: 'Open Sans', sans-serif;
 font-size: 25px;
+}
+
+.frontpagebuttons {
+	background-color: #FFFFFF;
+border: none;
+display: inline-block;
+text-align: center;
+text-decoration: none;
+cursor: pointer;
+margin-bottom: 20px;
+line-height: normal;
+color: #000000;
+padding: 10px 10px;
+font-size: 12px;
+cursor: pointer;
+text-transform: uppercase;
+letter-spacing: 2px;
+text-align: center;
+-webkit-transition: 0.2s background linear;
+-moz-transition: 0.2s background linear;
+transition: 0.2s background linear;
+-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+border-radius: 3px;
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+-webkit-background-clip: padding;
+-moz-background-clip: padding;
+background-clip: padding-box;
+-webkit-appearance: none;
+border: 1px solid #FFFFFF;
+}
+
+.contacting:hover{
+     background: #000;
+	 color: #FFF;
+	 border-radius: 3px;
+	 text-decoration: none;
+}
+
+.contacting {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 10px;
+	margin-left: 0px;
+}
+
+.maybesponsers {
+color: #FFFFFF;
+font-size: 18px;
+letter-spacing: 1px;
+margin-left: 1%;
+margin-top: 12%;
+text-transform: uppercase;
+text-rendering: optimizelegibility;
+font-weight: 400;
+}
+
+
+.registering {
+margin-top: 10px;
+margin-bottom: 10px;
+padding: 10px 50px;
+}
+
+
+.registering:hover{
+     background: #000;
+	 color: #FFF;
+	 border-radius: 3px;
+	 text-decoration: none;
+}
+
+.mayberegister {
+color: #FFFFFF;
+font-size: 18px;
+letter-spacing: 1px;
+text-transform: uppercase;
+text-rendering: optimizelegibility;
+font-weight: 400;
+padding-bottom: 5px;
 }
