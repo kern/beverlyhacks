@@ -181,8 +181,8 @@ section {
 }
 
 #sponsors h2 {
-  border-color: #aaa;
-  color: #aaa;
+  border-color: #E0E0E0;
+  color: #FF9936;
   padding: 20px 0;
 }
 
@@ -369,6 +369,10 @@ footer p {
   }
   #sponsors img {
 	  margin: 0px;
+	  -webkit-filter: grayscale(0%);
+  	  -moz-filter: grayscale(0%);
+  	  -ms-filter: grayscale(0%);
+  	  -o-filter: grayscale(0%);
   }
 }
 hr {
