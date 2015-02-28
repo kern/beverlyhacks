@@ -284,49 +284,6 @@ footer p {
   display: inline;
   margin: 0px 8px;
 }
-@media (max-width: 750px) {
-  #logo {
-    width: 100%;
-  }
-  .subtitle {
-	color: #FFFFFF;
-    font-size: 15px;
-  }
-  #hsbackground {
-	  background: none;
-  }
-  #headerContent {
-    padding-top: 0%;
-  }
-  .title {
-	color: #FFFFFF;
-	font-size: 4em;
-	font-weight: 700;
-	margin-top: 7%;
-	margin-left: 6%;
-	text-transform: uppercase;
-  }
-  #signupButtons {
-    text-align: center;
-  }
-  #signupButtons .btn {
-    margin: 10px 0 !important;
-  }
-  #about h1 {
-    font-size: 30px;
-  }
-  #about p {
-    font-size: 20px;
-  }
-  #faq p {
-    margin-bottom: 30px;
-  }
-}
-hr {
-  border-bottom: 2px solid #ddd;
-  width: 80%;
-}
-
 #sponsors img {
   margin: 20px;
   max-height: 100px;
@@ -371,6 +328,52 @@ hr {
   -ms-filter:     grayscale(0%);
   -o-filter:      grayscale(0%);
   opacity: 1;
+}
+
+@media (max-width: 750px) {
+  #logo {
+    width: 100%;
+  }
+  .subtitle {
+	color: #FFFFFF;
+    font-size: 15px;
+  }
+  #hsbackground {
+	  background: none;
+  }
+  #headerContent {
+    padding-top: 0%;
+  }
+  .title {
+	color: #FFFFFF;
+	font-size: 4em;
+	font-weight: 700;
+	margin-top: 7%;
+	margin-left: 6%;
+	text-transform: uppercase;
+  }
+  #signupButtons {
+    text-align: center;
+  }
+  #signupButtons .btn {
+    margin: 10px 0 !important;
+  }
+  #about h1 {
+    font-size: 30px;
+  }
+  #about p {
+    font-size: 20px;
+  }
+  #faq p {
+    margin-bottom: 30px;
+  }
+  #sponsors img {
+	  margin: 0px;
+  }
+}
+hr {
+  border-bottom: 2px solid #ddd;
+  width: 80%;
 }
 
 .navbar-center {
