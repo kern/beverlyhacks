@@ -304,7 +304,6 @@ footer p {
 	text-transform: uppercase;
   }
   #signupButtons {
-    
     text-align: center;
   }
   #signupButtons .btn {
@@ -337,7 +336,7 @@ hr {
   cursor: pointer;
   transition: all 150ms ease-in-out;
 }
-#sponsors .partner img {
+#sponsors .sponsors img {
   max-height: 150px;
 }
 #sponsors .gold img {
@@ -502,4 +501,9 @@ text-transform: uppercase;
 text-rendering: optimizelegibility;
 font-weight: 400;
 padding-bottom: 5px;
+}
+
+#judges {
+	background: #EF6C00;
+	color: #FFF;
 }
