@@ -292,6 +292,9 @@ footer p {
 	color: #FFFFFF;
     font-size: 15px;
   }
+  #hsbackground {
+	  background: none;
+  }
   #headerContent {
     padding-top: 0%;
   }
