@@ -74,7 +74,7 @@ header > .fixed {
 color: #FFFFFF;
 font-size: 4em;
 font-weight: 700;
-margin-top: 14%;
+margin-top: 10%;
 text-transform: uppercase;
 text-align: center;
 }
@@ -330,9 +330,28 @@ footer p {
   opacity: 1;
 }
 
+#bhhacksbg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  margin-top: 5%;
+  background-image: url(../img/Logo1.png);
+  background-position: top;
+  background-size: 15% auto;
+  background-repeat: no-repeat;
+  -webkit-animation-duration: 0.5s;
+  animation-duration: 0.5s;
+}
+
+
 @media (max-width: 750px) {
   #logo {
     width: 100%;
+  }
+  #bhhacksbg {
+	  margin-top: 20%;
   }
   .subtitle {
 	color: #FFFFFF;
@@ -347,9 +366,9 @@ footer p {
   .title {
 	color: #FFFFFF;
 	font-size: 4em;
-	font-weight: 700;
-	margin-top: 7%;
-	margin-left: 6%;
+	font-weight: 200;
+	margin-top: 0%;
+	margin-left: 0%;
 	text-transform: uppercase;
   }
   #signupButtons {
@@ -383,21 +402,6 @@ hr {
 .navbar-center {
 	float: left;
 	margin-left: 32.5%;
-}
-
-#bhhacksbg {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  margin-top: 8%;
-  background-image: url(../img/Logo1.png);
-  background-position: top;
-  background-size: 15% auto;
-  background-repeat: no-repeat;
-  -webkit-animation-duration: 0.5s;
-  animation-duration: 0.5s;
 }
 
 #schedule {
