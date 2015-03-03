@@ -345,6 +345,10 @@ footer p {
   animation-duration: 0.5s;
 }
 
+#makeschool {
+	margin-top: 0px;
+}
+
 
 @media (max-width: 750px) {
   #logo {
@@ -392,6 +396,9 @@ footer p {
   	  -moz-filter: grayscale(0%);
   	  -ms-filter: grayscale(0%);
   	  -o-filter: grayscale(0%);
+  }
+  #makeschool {
+	  margin-top: 25px;
   }
 }
 hr {
