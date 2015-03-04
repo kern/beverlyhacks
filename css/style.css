@@ -395,6 +395,7 @@ footer p {
   	  -moz-filter: grayscale(0%);
   	  -ms-filter: grayscale(0%);
   	  -o-filter: grayscale(0%);
+      max-width: 90%;
   }
   #makeschool {
 	  margin-top: 25px;
