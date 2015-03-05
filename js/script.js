@@ -12,7 +12,7 @@ $(document).ready(function() {
       window.location.hash = target;
     });
   });
-  var time=0;
+  /*var time=0;
   setInterval(function() {
     wh = $(window).height();
     st = $(document).scrollTop();
@@ -30,7 +30,7 @@ $(document).ready(function() {
       $('#headerbg').css('opacity', (0+st/(about.offset().top)*0.15) );
     }
     //$('#metropolis').css('transform','translate3d(0,' + Math.sin(time++)*20 + 'px,0)');
-  }, 10);
+  }, 10);*/
     
   $('[data-toggle="tooltip"]').tooltip();
 });
