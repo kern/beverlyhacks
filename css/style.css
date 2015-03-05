@@ -23,7 +23,7 @@ header {
 }
 
 #nav {
-  position: fixed;
+  position: absolute;
   width: 100%;
   background-color: black;
   border: none;
