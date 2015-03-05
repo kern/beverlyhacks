@@ -17,20 +17,15 @@ header {
   height: 100%;
   width: 100%;
   z-index: 0;
-  position: relative;
-}
-header > .fixed {
- height: 100%;
- width: 100%;
- background-color: #000000;
- position: fixed;
- z-index: 0;
+  /*position: relative;*/
+   background-color: #000000;
+
 }
 
 #nav {
-  position: absolute;
+  position: fixed;
   width: 100%;
-  background-color: rgba(0, 0, 0, 0);
+  background-color: black;
   border: none;
   padding: 7px 30px;
   font-size: 24px;
@@ -48,12 +43,12 @@ header > .fixed {
   transition: all 250ms linear;
 }
 
-#nav a:hover {
+#nav a:hover, #nav a.active {
   border-bottom: 5px solid;
   color: #FFF;
 }
 #headerbg {
-  position: absolute;
+  /*position: absolute;*/
   width: 100%;
   height: 100%;
   z-index: 10;
@@ -87,7 +82,7 @@ text-align: center;
 }
 
 #headerContent {
-  position: absolute;
+  /*position: absolute;*/
   z-index: 100;
   padding-top: 10%;
   width: 100%;
@@ -126,16 +121,13 @@ section {
 }
 
 #about {
-  text-align: center;
-  font-size: 36px;
-  position: relative;
-  padding: 200px 0px;
-  padding-top: 0px;
-  background: transparent;
+  background: darkgray;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 #hsbackground {
-  position: absolute;
+  /*position: absolute;*/
   width: 100%;
   height: 100%;
   background-image: url(../img/Swim%20Gym.jpg);
@@ -337,7 +329,7 @@ footer p {
 }
 
 #bhhacksbg {
-  position: absolute;
+  /*position: absolute;*/
   top: 0;
   left: 0;
   width: 100%;
