@@ -65,6 +65,13 @@ header > .fixed {
 }
 
 @media screen and (max-width: 750px) {
+  #team1515 {
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 750px) {
   #logo {
     margin-top: 120px;
   }
