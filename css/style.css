@@ -124,9 +124,24 @@ section {
 }
 
 #about {
-  background: darkgray;
+  /*background-image: url("../img/Swim Gym.jpg");*/
+  background-color: gray;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
   padding-top: 100px;
   padding-bottom: 100px;
+  color: black;
+}
+
+#bgImageHome {
+  position:absolute;
+  top:0px;
+  left:0px;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+  
 }
 
 #hsbackground {
@@ -142,7 +157,8 @@ section {
 }
 
 #abouttext{
-  color: #FFFFFF;
+  /*color: #FFFFFF;*/
+  color: white;
   padding-left: 20px;
   padding-right: 20px;
 }
@@ -552,7 +568,9 @@ padding-bottom: 5px;
 }
 
 #judges {
-	background: #EF6C00;
+	/*background: #EF6C00;*/
+  background-image: url("../img/STCbuilding2.png");
+  background-size: cover;
 	color: #FFF;
 }
 
