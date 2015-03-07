@@ -33,6 +33,7 @@ header {
   font-weight: bold;
   color: #fff;
   z-index: 1000;
+  top:-2%;
 }
 
 #nav a {
@@ -186,6 +187,10 @@ section {
   padding: 20px 0;
 }
 
+#organizers h2 {  
+  color: red;
+}
+
 section {
   z-index: 20;
   background: #f0f0f0;
@@ -274,6 +279,9 @@ footer p {
   display: inline-block;
 }
 
+#studentRND {
+ }
+
 #social {
   list-style-type: none;
   margin: 0;
@@ -284,6 +292,7 @@ footer p {
   display: inline;
   margin: 0px 8px;
 }
+
 #sponsors img {
   margin: 20px;
   max-height: 100px;
@@ -297,7 +306,7 @@ footer p {
   transition: all 150ms ease-in-out;
 }
 #sponsors .sponsors img {
-  max-height: 150px;
+ 
 }
 #sponsors .gold img {
   max-height: 120px;
@@ -328,6 +337,23 @@ footer p {
   -ms-filter:     grayscale(0%);
   -o-filter:      grayscale(0%);
   opacity: 1;
+}
+
+#organizers {
+  background-color: white;
+  width: 100%;
+}
+
+#organizers img {
+  max-width: 200px;
+   display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+
+.organizers {
+
 }
 
 #bhhacksbg {
@@ -540,4 +566,8 @@ padding-bottom: 5px;
 
 .img-circle {
   max-width: 200px;
+}
+
+#organizers {
+display: inline-block;
 }
