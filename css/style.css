@@ -9,6 +9,7 @@ html, body {
   font-size: 20px;
   letter-spacing: 0.05em;
   z-index: 0;
+  background-color: black;
 }
 a {
   transition: all 200ms ease-in-out;
@@ -84,7 +85,7 @@ text-align: center;
 #headerContent {
   /*position: absolute;*/
   z-index: 100;
-  padding-top: 10%;
+  padding-top: -10%;
   width: 100%;
 }
 
@@ -98,6 +99,7 @@ margin-top: -1%;
   font-size: 18px;
   text-align: center;
 }
+
 
 #signupButtons {
   margin-top: 0%;
