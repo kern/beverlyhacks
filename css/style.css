@@ -206,7 +206,9 @@ section {
 }
 
 #organizers h2 {  
-  color: red;
+  border-color: #E0E0E0;
+  color: #FF9936;
+  padding: 20px 0;
 }
 
 section {
